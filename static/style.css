@@ -1,0 +1,76 @@
+
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #86b4e2, #50a6e9);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #2d3436;
+}
+
+/* Headings */
+h1, h2 {
+    color: white;
+    margin-top: 40px;
+}
+
+/* Links on index page */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    color: #0984e3;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #dfe6e9;
+}
+
+/* Form Container */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* File Input */
+input[type="file"] {
+    padding: 10px;
+    border: 2px dashed #0984e3;
+    border-radius: 6px;
+    background: #f1f2f6;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    background: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #74b9ff;
+}
